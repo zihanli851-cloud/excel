@@ -30,6 +30,9 @@ class Settings:
     secret_key: str = "change-me-in-production"
     log_level: str = "DEBUG"
     import_batch_size: int = 500
+    auth_token_ttl_minutes: int = 480
+    default_admin_username: str = "admin"
+    default_admin_password: str = "admin123456"
 
     @property
     def upload_path(self) -> Path:
@@ -57,4 +60,7 @@ def get_settings() -> Settings:
         secret_key=read("SECRET_KEY", Settings.secret_key),
         log_level=read("LOG_LEVEL", Settings.log_level),
         import_batch_size=int(read("IMPORT_BATCH_SIZE", str(Settings.import_batch_size))),
+        auth_token_ttl_minutes=int(read("AUTH_TOKEN_TTL_MINUTES", str(Settings.auth_token_ttl_minutes))),
+        default_admin_username=read("DEFAULT_ADMIN_USERNAME", Settings.default_admin_username),
+        default_admin_password=read("DEFAULT_ADMIN_PASSWORD", Settings.default_admin_password),
     )
