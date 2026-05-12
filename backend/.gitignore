@@ -1,0 +1,13 @@
+.venv/
+.deps/
+__pycache__/
+.pytest_cache/
+test_artifacts/
+wheels/
+.pip-tmp/
+.pip-cache/
+*.pyc
+dev.db
+uploads/
+exports/
+.env
