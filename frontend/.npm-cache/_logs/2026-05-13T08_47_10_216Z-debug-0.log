@@ -1,0 +1,141 @@
+0 verbose cli D:\nodejs\node.exe D:\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:D:\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\vscode\excel查找\excel\frontend\.npmrc
+5 silly config load:file:C:\Users\lenovo\.npmrc
+6 silly config load:file:C:\Users\lenovo\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:E:\vscode\excel查找\excel\frontend\.npm-cache\_logs\2026-05-13T08_47_10_216Z-
+10 verbose logfile E:\vscode\excel查找\excel\frontend\.npm-cache\_logs\2026-05-13T08_47_10_216Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @element-plus/icons-vue@^2.3.1
+15 silly packumentCache full:https://registry.npmjs.org/@element-plus%2ficons-vue cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@element-plus%2ficons-vue 2472ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@element-plus%2ficons-vue set size:undefined disposed:false
+18 silly fetch manifest vue@^3.5.13
+19 silly packumentCache full:https://registry.npmjs.org/vue cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/npm 6376ms
+21 http fetch GET 200 https://registry.npmjs.org/vue 3954ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/vue set size:undefined disposed:false
+23 silly fetch manifest typescript@~5.7.2
+24 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/typescript 14061ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+27 silly fetch manifest axios@^1.7.9
+28 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/axios 1102ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+31 silly fetch manifest dayjs@^1.11.13
+32 silly packumentCache full:https://registry.npmjs.org/dayjs cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/dayjs 1889ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/dayjs set size:undefined disposed:false
+35 silly fetch manifest element-plus@^2.9.3
+36 silly packumentCache full:https://registry.npmjs.org/element-plus cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/element-plus 1874ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/element-plus set size:undefined disposed:false
+39 silly fetch manifest lucide-vue-next@^0.469.0
+40 silly packumentCache full:https://registry.npmjs.org/lucide-vue-next cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/lucide-vue-next 2240ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/lucide-vue-next set size:undefined disposed:false
+43 silly fetch manifest pinia@^2.3.0
+44 silly packumentCache full:https://registry.npmjs.org/pinia cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/pinia 1947ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/pinia set size:undefined disposed:false
+47 silly fetch manifest vue-router@^4.5.0
+48 silly packumentCache full:https://registry.npmjs.org/vue-router cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/vue-router 1300ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/vue-router set size:undefined disposed:false
+51 silly fetch manifest @types/node@^22.10.5
+52 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 9946ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+55 silly fetch manifest @vitejs/plugin-vue@^5.2.1
+56 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-vue cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-vue 905ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-vue set size:undefined disposed:false
+59 silly fetch manifest vite@^6.0.7
+60 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/vite 27831ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/vite set size:undefined disposed:false
+63 silly fetch manifest jiti@>=1.21.0
+64 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/jiti 930ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/jiti set size:undefined disposed:false
+67 silly fetch manifest less@*
+68 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/less 943ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/less set size:undefined disposed:false
+71 silly fetch manifest lightningcss@^1.21.0
+72 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/lightningcss 2519ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:undefined disposed:false
+75 silly fetch manifest sass@*
+76 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/sass 1649ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+79 silly fetch manifest sass-embedded@*
+80 silly packumentCache full:https://registry.npmjs.org/sass-embedded cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/sass-embedded 901ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/sass-embedded set size:undefined disposed:false
+83 silly fetch manifest stylus@*
+84 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/stylus 1739ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/stylus set size:undefined disposed:false
+87 silly fetch manifest sugarss@*
+88 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/sugarss 670ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/sugarss set size:undefined disposed:false
+91 silly fetch manifest postcss@^8.3.3
+92 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/postcss 983ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/postcss set size:undefined disposed:false
+95 silly fetch manifest terser@^5.16.0
+96 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/terser 5261ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/terser set size:undefined disposed:false
+99 silly fetch manifest tsx@^4.8.1
+100 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/tsx 1184ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/tsx set size:undefined disposed:false
+103 silly fetch manifest yaml@^2.4.2
+104 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/yaml 1343ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/yaml set size:undefined disposed:false
+107 silly fetch manifest @vue/test-utils@^2.4.6
+108 silly packumentCache full:https://registry.npmjs.org/@vue%2ftest-utils cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@vue%2ftest-utils 2582ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/@vue%2ftest-utils set size:undefined disposed:false
+111 silly fetch manifest @vue/compiler-dom@3.x
+112 silly packumentCache full:https://registry.npmjs.org/@vue%2fcompiler-dom cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-dom 1564ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/@vue%2fcompiler-dom set size:undefined disposed:false
+115 silly fetch manifest @vue/server-renderer@3.x
+116 silly packumentCache full:https://registry.npmjs.org/@vue%2fserver-renderer cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@vue%2fserver-renderer 1329ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/@vue%2fserver-renderer set size:undefined disposed:false
+119 silly fetch manifest jsdom@^25.0.1
+120 silly packumentCache full:https://registry.npmjs.org/jsdom cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/jsdom 1354ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/jsdom set size:undefined disposed:false
+123 silly fetch manifest canvas@^2.11.2
+124 silly packumentCache full:https://registry.npmjs.org/canvas cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/canvas 1128ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/canvas set size:undefined disposed:false
+127 silly fetch manifest vitest@^2.1.8
+128 silly packumentCache full:https://registry.npmjs.org/vitest cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/vitest 3210ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/vitest set size:undefined disposed:false
+131 silly fetch manifest @edge-runtime/vm@*
+132 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/@edge-runtime%2fvm 866ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm set size:undefined disposed:false
+135 silly fetch manifest @vitest/browser@2.1.9
+136 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser 918ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser set size:undefined disposed:false
+139 silly fetch manifest playwright@*
+140 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss

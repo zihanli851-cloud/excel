@@ -1,0 +1,10 @@
+:root {
+  --app-bg: #f5f7fb;
+  --app-sidebar: #172033;
+  --app-sidebar-active: #263756;
+  --app-border: #dce2ea;
+  --app-text: #1f2a3d;
+  --app-muted: #6b778c;
+  --app-invalid-row: #fff7cc;
+  --app-invalid-row-hover: #fff1a8;
+}
