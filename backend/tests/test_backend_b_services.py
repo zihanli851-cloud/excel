@@ -6,14 +6,18 @@ from decimal import Decimal
 from sqlalchemy import create_engine, func, select
 from sqlalchemy.orm import Session, sessionmaker
 
+from fastapi import HTTPException
+
+from app.api.deps import require_admin
 from app.core.database import Base
 from app.models.audit_log import AuditLog
 from app.models.project import Project
+from app.models.user import User
 from app.models.query_history import QueryHistory
+from app.schemas.project_query import ProjectSearchRequest
 from app.services.auth_service import AuthService
 from app.services.project_query_service import ProjectQueryService
 from app.services.query_history_service import QueryHistoryService
-from app.schemas.project_query import ProjectSearchRequest
 
 
 def _make_session() -> Session:
@@ -72,6 +76,30 @@ def test_project_query_service_records_history_and_audit() -> None:
         assert len(export_projects) == 1
         audit_count_after_export = db.scalar(select(func.count()).select_from(AuditLog))
         assert audit_count_after_export == 2
+
+
+def test_project_search_defaults_to_valid_only() -> None:
+    payload = ProjectSearchRequest()
+
+    assert payload.invalid_mode == "valid_only"
+
+
+def test_require_admin_allows_admin_user() -> None:
+    user = User(username="admin", password_hash="hash", role="admin", is_active=True)
+
+    assert require_admin(user) is user
+
+
+def test_require_admin_rejects_viewer_user() -> None:
+    user = User(username="viewer", password_hash="hash", role="viewer", is_active=True)
+
+    try:
+        require_admin(user)
+    except HTTPException as exc:
+        assert exc.status_code == 403
+        assert exc.detail == "Admin role required"
+    else:
+        raise AssertionError("viewer should not pass admin dependency")
 
 
 def test_query_history_service_deletes_only_owned_history() -> None:

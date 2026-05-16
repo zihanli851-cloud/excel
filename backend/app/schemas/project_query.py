@@ -24,7 +24,7 @@ class ProjectSearchRequest(BaseModel):
     amount_min: Decimal | None = None
     amount_max: Decimal | None = None
     amount_field: AmountField = "any"
-    invalid_mode: InvalidMode = "all"
+    invalid_mode: InvalidMode = "valid_only"
     invalid_reason: str | None = None
     page: int = Field(default=1, ge=1)
     page_size: int = Field(default=20, ge=1, le=100)
